@@ -8,7 +8,7 @@ FROM eclipse-temurin:21 AS major-only-21
 
 FROM eclipse-temurin:21-jre-jammy AS major-only-21-jre-jammy
 
-FROM amazoncorretto:21 AS major-only-amazoncorretto-21
+FROM amazoncorretto:25 AS major-only-amazoncorretto-21
 
 FROM eclipse-temurin:21.0.9_10-jre AS full-21-0-9-jre
 
